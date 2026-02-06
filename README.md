@@ -57,8 +57,15 @@ moral-compass/
 4. Review `scenarios/dilemmas.md` for worked examples
 
 **For OpenClaw Users:**
-1. Copy the `skill/` directory to your OpenClaw skills folder
-2. Reference the skill when ethical questions arise
+```bash
+# Install from GitHub
+clawhub install pescehead/moral-compass
+
+# Or manually copy skill/ to your OpenClaw skills folder
+cp -r skill/ ~/.openclaw/skills/moral-compass/
+```
+
+The skill triggers when facing ethical dilemmas, conflicting interests, or requests that could cause harm.
 
 **For Everyone:**
 The framework is human-readable. Even without AI integration, the documents provide a thoughtful approach to practical ethics.
